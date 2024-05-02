@@ -9,4 +9,8 @@
 #include <utility> /* implementações de alguns containers e operações de swap */
 #include <vector> /* implementação do container vector e suas operações */
 
+#include <iostream>
+
+using namespace std;
+
 #endif  //DEFINES_HPP
