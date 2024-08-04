@@ -3,6 +3,7 @@
 
 #include "Edge.hpp"
 #include "defines.hpp"
+using namespace std;
 
 class Node {
     private:

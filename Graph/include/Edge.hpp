@@ -2,6 +2,7 @@
 #define GRAFO_BASICO_EDGE_H
 
 #include "defines.hpp"
+using namespace std;
 
 class Edge
 {
