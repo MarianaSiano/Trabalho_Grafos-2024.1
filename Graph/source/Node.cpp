@@ -3,7 +3,6 @@
 
 using namespace std;
 
-//Construtor Padrão
 Node::Node()
 {
     _number_of_edges = 0;
@@ -14,7 +13,6 @@ Node::Node()
     _previous_node = nullptr;
 }
 
-//Construtor com Parâmetros
 Node::Node(size_t id, float weight, Edge *firstEdge, Node *nextNode, Node *previousNode)
 {
     _number_of_edges = 0;

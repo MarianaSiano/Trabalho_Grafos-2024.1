@@ -12,11 +12,11 @@ Graph::Graph(ifstream& instance)
     //Inicialização dos atributos
     _number_of_nodes = 0;
     _number_of_edges = 0;
-    _directed = false; //Inicialização padrão
-    _weighted_edges = false; //Inicialização padrão
-    _weighted_nodes = false; //Inicialização padrão
-    _first = nullptr; //Inicialização o primeiro nó como nullptr
-    _last = nullptr; //Inicialização o último nó como nullptr
+    _directed = false;
+    _weighted_edges = false;
+    _weighted_nodes = false;
+    _first = nullptr;
+    _last = nullptr;
 
     //Pode adicionar lógica para ler o arquivo e construir o grafo
 }
@@ -32,7 +32,6 @@ Graph::Graph()
     _last = nullptr;
 }
 
-//Destrutor
 Graph::~Graph()
 {
     Node* current = _first;
