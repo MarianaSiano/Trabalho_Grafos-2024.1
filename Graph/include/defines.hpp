@@ -8,5 +8,6 @@
 #include <iostream> //Implementações básicas da linguagem
 #include <utility> //Implementações de alguns containers e operações de swap
 #include <vector> //mplementação do container vector e suas operações
+#include <cstddef> //Para size_t
 
 #endif  //DEFINES_HPP

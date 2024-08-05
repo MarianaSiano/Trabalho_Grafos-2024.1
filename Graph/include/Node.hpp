@@ -1,5 +1,5 @@
-#ifndef GRAPH_BASIC_NODE_H
-#define GRAPH_BASIC_NODE_H
+#ifndef NODE_HPP
+#define NODE_HPP
 
 #include "Edge.hpp"
 #include "defines.hpp"
@@ -7,13 +7,12 @@ using namespace std;
 
 class Node {
     private:
-        size_t _id; //ID do nó
-        float _weight; //Peso do nó
-        Edge* _first_edge; //Primeiro edge da lista de adjacência
-        Node* _next_node; //Próximo nó da lista de nós
+        size_t _id;
+        float _weight;
+        Edge* _first_edge;
+        Node* _next_node;
 
     public:
-        Node();
         Node(size_t id, float weight);
 
         //Getters e Setters
@@ -27,4 +26,4 @@ class Node {
         void setNextNode(Node* nextNode);
 };
 
-#endif  //GRAPH_BASIC_NODE_H
+#endif  //NODE_HPP
